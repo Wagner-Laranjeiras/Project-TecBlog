@@ -90,16 +90,26 @@ body {
     padding: 4px;
     margin-top: 2%;
     margin-right: 15%;
-    width: 15%;
+    width: 18%;
     height: auto;
     float: right;
 
 }
 
-.navegacao_lat ul {
-    background-color: #DFE0DF;
-    color: #BBC0BB;
+#navegacao_lat ul, h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #95A095;
+    text-decoration: none;
+    background-color: #BBC0BB;
+    text-align: left;
+    list-style-type: none;
+
 }
 
+#navegacao_lat li a:link, a:visited, a:hover {
+    color: #FFC800;
+    text-decoration: none;
+}
 
                                                  /*Fim das postagens recentes */
